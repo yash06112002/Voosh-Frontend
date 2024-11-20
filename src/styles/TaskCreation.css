@@ -1,0 +1,58 @@
+.task-creation-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.task-creation-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+  text-align: center;
+}
+
+.task-creation-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-creation-container input,
+.task-creation-container textarea,
+.task-creation-container select {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-creation-container textarea {
+  height: 100px;
+}
+
+.task-creation-container button {
+  padding: 0.8rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.task-creation-container button:hover {
+  background-color: #218838;
+}
+
+.task-creation-container .cancel-button {
+  background-color: #dc3545;
+  margin-top: 0.5rem;
+}
+
+.task-creation-container .cancel-button:hover {
+  background-color: #c82333;
+}

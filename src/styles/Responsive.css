@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .task-columns {
+    flex-direction: column;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .auth-card {
+    padding: 1.5rem;
+  }
+}
